@@ -1,0 +1,17 @@
+<div>
+	<h3>Chat component</h3>
+	<input type="text" placeholder="Your message"
+		(keyup)="handleKeyUp($event)"
+		/>
+	<div class="messageHistory"
+		*ngIf="messages.length === 0">
+		no messages yet
+	</div>
+	<div class="messageHistory"
+		*ngIf="messages.length > 0">
+		<div *ngFor="let message of messages">
+			{{ message.content }}
+		</div>
+	</div>
+
+</div>

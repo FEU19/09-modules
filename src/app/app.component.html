@@ -1,4 +1,15 @@
 <h1>Module demo</h1>
+<!-- Future improvement: differentiate the components using @Input properties. Message could contain date/time sent and sender alias. -->
+<div class="chatRow">
+	<app-chat [alias]="'David'"></app-chat>
+	<app-chat></app-chat>
+</div>
+<div class="chatRowGrid">
+	<app-chat></app-chat>
+	<app-chat></app-chat>
+</div>
+
+<hr />
 
 <app-select-article></app-select-article>
 <hr />

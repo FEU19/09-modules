@@ -1,0 +1,8 @@
+.chatRow {
+	display: flex;
+	flex-direction: row;
+}
+.chatRowGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}

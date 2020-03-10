@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { SelectArticleModule } from './select-article/select-article.module';
 import { ViewArticlesModule } from './view-articles/view-articles.module';
+import { ChatModule } from './chat/chat.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
 		BrowserModule,
 		AppRoutingModule,
 		SelectArticleModule,
-		ViewArticlesModule
+		ViewArticlesModule,
+		ChatModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
