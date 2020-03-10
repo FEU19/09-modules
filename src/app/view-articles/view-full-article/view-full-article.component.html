@@ -1,0 +1,7 @@
+<button (click)="viewArticle()">View article</button>
+
+<div style="border: 1px solid red;">
+	<h3>{{ fetchedArticle?.title }}</h3>
+	{{ fetchedArticle?.content }}
+</div>
+<!-- Use *ngIf to avoid having an empty element on the page -->
